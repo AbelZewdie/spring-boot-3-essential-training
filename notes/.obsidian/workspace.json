@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "54fe617e5ed27b9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "92391bb088347e33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f18a706276a6862",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Spring Boot Data/3.1 The Repository pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.1 The Repository pattern"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfbb4ffed769b73a",
+    "type": "split",
+    "children": [
+      {
+        "id": "68ee3c72448d0cfa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b792b83b8ca7202c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b70b82fae8fb3ffc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cde808f6067746d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f730373d8c337593",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b05df703ef36b1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5210b38c24bb112f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Spring Boot Command Line/2.1 CommandLineRunner interface.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8c6216dbbdf5a5ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Spring Boot Command Line/2.1 CommandLineRunner interface.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1f5a95fb5d8c33e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b8b6d4f7d09d7b84",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "340ddd3250cd4912",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Spring Boot Command Line/2.1 CommandLineRunner interface.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4f18a706276a6862",
+  "lastOpenFiles": [
+    "3. Spring Boot Data/3.1 The Repository pattern.md",
+    "1. Spring Boot Basics/1.0 Spring Boot Basics.md",
+    "2. Spring Boot Command Line/2.1 CommandLineRunner interface.md",
+    "2. Spring Boot Command Line/2.0 Spring Boot Command Line.md",
+    "3. Spring Boot Data",
+    "2. Spring Boot Command Line/2.2 Building a command-line application.md",
+    "1. Spring Boot Basics/1.5 Spring Boot and Docker.md",
+    "1. Spring Boot Basics/1.4 Building Spring Boot applications.md",
+    "1. Spring Boot Basics/1.3 Spring Profiles in Boot.md",
+    "1. Spring Boot Basics/1.1 Understanding auto-configuration.md",
+    "1. Spring Boot Basics/1.2 Configuration in Spring Boot.md"
+  ]
+}
