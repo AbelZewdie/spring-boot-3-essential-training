@@ -1,16 +1,11 @@
 package com.springboot3essentialtraining.room_web_app.web.controller;
 
-import com.springboot3essentialtraining.room_web_app.data.entity.RoomEntity;
-import com.springboot3essentialtraining.room_web_app.data.repository.RoomRepository;
 import com.springboot3essentialtraining.room_web_app.service.RoomService;
-import com.springboot3essentialtraining.room_web_app.web.model.Room;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @Controller
 @RequestMapping("/rooms")
