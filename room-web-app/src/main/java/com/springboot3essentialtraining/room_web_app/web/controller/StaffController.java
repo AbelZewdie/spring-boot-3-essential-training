@@ -2,6 +2,7 @@ package com.springboot3essentialtraining.room_web_app.web.controller;
 
 import com.springboot3essentialtraining.room_web_app.data.entity.StaffMember;
 import com.springboot3essentialtraining.room_web_app.data.repository.StaffRepository;
+import com.springboot3essentialtraining.room_web_app.service.StaffService;
 import com.springboot3essentialtraining.room_web_app.web.model.Staff;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,18 +16,15 @@ import java.util.List;
 @RequestMapping("/staff")
 public class StaffController {
 
-    private final StaffRepository staffRepository;
+    private final StaffService staffService;
 
-    public StaffController(StaffRepository staffRepository) {
-        this.staffRepository = staffRepository;
+    public StaffController(StaffService staffService) {
+        this.staffService = staffService;
     }
 
     @GetMapping
     public String getStaffPage(Model model) {
-        List<StaffMember> staffMembers = this.staffRepository.findAll();
-        List<Staff> staff = new ArrayList<>(staffMembers.size());
-        staffMembers.forEach(e -> staff.add(new Staff(e.getEmployeeId(), e.getFirstName(), e.getLastName(), e.getPosition().toString())));
-        model.addAttribute("staff", staff);
+        model.addAttribute("staff", this.staffService.getAllStaff());
         return "staff";
     }
 }
